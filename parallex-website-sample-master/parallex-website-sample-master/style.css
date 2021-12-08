@@ -1,0 +1,85 @@
+body,html
+{
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: "Leto",sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.pimg1{
+	width: 100%;
+    height: 100%;
+	background-image: url('foot.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.pimg2{
+	width: 100%;
+	min-height: 600px;
+	background-image: url('smile.JPG');
+	background-size: cover;
+}
+.pimg3{
+	width: 100%;
+	min-height: 400px;
+	background-image: url('heart.JPG');
+	background-size: cover;
+}
+.pimg4{
+	width: 100%;
+	height: 100%;
+	background-image: url('three.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section
+{
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light{
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+.ptext
+{
+	position: absolute;
+	top: 50%;;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	letter-spacing: 4px;
+	text-shadow: 2px 2px #000;
+	text-transform: uppercase;
+}
+.ptext .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+
+}
+.ptext .border.trans{
+	background-color: transparent;
+}
+@media(max-width: 568px){
+	.pimg1,.pimg2,.pimg3{
+		background-attachment: scroll;
+	}
+}
